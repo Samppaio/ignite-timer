@@ -91,7 +91,7 @@ export function Home() {
             step={5}
             min={5}
             max={60}
-            {...(register("minutesAmount"), { valueAsNumber: true })}
+            {...register("minutesAmount", { valueAsNumber: true })}
           />
 
           <span>minutos.</span>
